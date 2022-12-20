@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "nati";
+    src: url("./Nordic/Nordic\ Alternative\ Regular.ttf");
+}
+*{
+    font-family: "nati",sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: linear-gradient(45deg,rgb(31, 28, 28),rgb(48, 45, 45),black,rgb(48, 38, 38));
+    background-size: 600% 100%;
+    animation: gradient 20s linear infinite;
+    height: 100vh;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+.nav{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+ul{
+    display: flex;
+   
+    gap: 50px;
+}
+li{
+    color: white;
+    list-style-type: none;
+    font-size: 25px;
+}
+.main{
+   
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main__title{
+    font-size: 250px;
+    letter-spacing: 10px;
+    color: white;
+    
+    
+
+
+}
+.main__subtitle{
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: white;
+    
+    
+
+
+}
+
+.main__contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    
+}
