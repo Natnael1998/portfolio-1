@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    defer></script>
+
+
     <title>Document</title>
 </head>
 <body>
-   
-    <section class="main">
-        <div class="nav">
-            <ul>
-                <li>Contacts</li>
-                <li>Resume</li>
-                <li>Git-hub</li>
     
-            </ul>
-        </div>
-
-       <div class="main__contain">
-        <h1 class="main__title">NATNAEL</h1>
-        <h1 class="main__subtitle">Frontend Software Engineer</h1>
+   
+    <section id="main">
+        <div class="roww">
+            <div class="nav">
+                <ul>
+                    <li><a href="#projects">Projects</a> </li>
+                    <li><a href="./assets/resume.docx" target="_blank">Resume</a> </li>
+                    <li><a href="https://github.com/Natnael1998" target="_blank">Git-hub</a> </li>
         
-       </div>
+                </ul>
+            </div>
+    
+           <div class="main__contain">
+            <h1 class="main__title">NATNAEL</h1>
+            <h1 class="main__subtitle">Frontend Software Engineer</h1>
+            
+           </div>
+        </div>
+        
             
 
         
@@ -31,6 +41,143 @@
 
 
     </section>
+    <section id="projects">
+        
+      
+        <div class="container">
+            <div class="row">
+              <h1 class="section__title">
+                My Projects
+              </h1>
+              <ul class="project__list">
+                <li class="project">
+                  <div class="project__wrapper">
+                    <img src="./assets/netr.jfif" alt="" class="project__img" />
+                    <div class="project__wrapper--bg"></div>
+                    <div class="project__description">
+                      <h3 class="project__description--title">Netflix clone</h3>
+                      <h4 class="project__description--sub-title">
     
+                        
+    
+                      </h4>
+                      <p class="project__description--para">
+                        This is a netflix clone made by using Html, Tailwind css, Javascript, React, Firebase.Press the icon link below to go to the website
+                        
+                      </p>
+                      <div class="project__description--links">
+                        <a href="https://github.com/Natnael1998" class="project__description--link">
+                          <i class="fab fa-github"></i>
+                        </a>
+    
+                        <a href="http://nati-netflix-clone.netlify.app/" class="project__description--link" target="_blank">
+                          <i class="fas fa-link"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+    
+                <li class="project">
+                  <div class="project__wrapper">
+                    <img src="https://th.bing.com/th/id/OIP.WGxtnw81X7exO2PxiVlL9QHaEK?pid=ImgDet&rs=1" alt="" class="project__img" />
+                    <div class="project__wrapper--bg"></div>
+                    <div class="project__description">
+                      <h3 class="project__description--title">Amazon Clone</h3>
+                      <h4 class="project__description--sub-title">
+                        
+                      </h4>
+                      <p class="project__description--para">
+                       Made by using Html, Css, Javascript, React.Press the icon link below to go to the website
+                        
+                      </p>
+                      <div class="project__description--links">
+                        <a href="https://github.com/Natnael1998" class="project__description--link">
+                          <i class="fab fa-github"></i>
+                        </a>
+    
+                        <a href="https://nati-amazon-clone.netlify.app" class="project__description--link" target="_blank">
+                          <i class="fas fa-link"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+                <li class="project">
+                  <div class="project__wrapper">
+                    <img src="./assets//b.png" alt="" class="project__img" />
+                    <div class="project__wrapper--bg"></div>
+                    <div class="project__description">
+                      <h3 class="project__description--title">Basic Birthday List</h3>
+                      <h4 class="project__description--sub-title">
+                      </h4>
+                      <p class="project__description--para">
+                       Made by using Html, Css, Javascript, React.Press the icon link below to go to the website
+                        
+                      </p>
+                      <div class="project__description--links">
+                        <a href="https://github.com/Natnael1998" class="project__description--link">
+                          <i class="fab fa-github"></i>
+                        </a>
+    
+                        <a href="https://birthday-list-nati.netlify.app/" class="project__description--link">
+                          <i class="fas fa-link"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+    
+                
+              </ul>
+            </div>
+          </div>
+        
+
+    </section>
+    <footer>
+        <div class="container">
+          <div class="row footer__row">
+            <h1 class="main__subtitle">
+              NATNAEL
+            </h1>
+            <div class="footer__social--links">
+              <a
+                href="https://github.com/Natnael1998"
+                class="footer__social--link link__hover-effect link__hover-effect--white"
+              >
+                Github
+              </a>
+  
+              <a
+                href="#"
+                class="footer__social--link link__hover-effect link__hover-effect--white"
+              >
+                LinkedIn
+              </a>
+  
+              <a
+                href="#"
+                class="footer__social--link link__hover-effect link__hover-effect--white"
+                onclick="toggleModal()"
+              >
+                Contact
+              </a>
+  
+              <a
+              target="_blank"
+                href="./assets/resume.docx"
+                class="footer__social--link link__hover-effect link__hover-effect--white"
+  
+              >
+                Resume
+              </a>
+            </div>
+            <div class="footer__copyright">Copyright &copy; Natnael shemels</div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
