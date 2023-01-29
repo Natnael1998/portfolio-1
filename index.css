@@ -64,7 +64,7 @@ li{
     
 }
 .main__title{
-    font-size: 250px;
+    font-size: 150px;
     letter-spacing: 10px;
     color: white;
     animation: IN 4s;
@@ -92,7 +92,7 @@ li{
 }
 .main__subtitle{
   font-family: "nati";
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 10px;
     color: white;
     animation: IN 5s;
@@ -105,6 +105,11 @@ li{
 .main__contain{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+    
  
     
     
@@ -461,13 +466,13 @@ z-index: -1;
 }
 @media (max-width:547px) {
   .main__title{
-    font-size: 60px;
+    font-size: 50px;
   }
   .main__subtitle{
     font-size: 15px;
   }
   .main__contain{
-    margin: 200px;
+    
   }
   .nav > ul{
     gap: 25px;
